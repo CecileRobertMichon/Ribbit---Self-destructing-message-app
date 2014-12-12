@@ -26,17 +26,18 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_action_camera=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int ic_action_send_now=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
         public static final int ForgotPasswordText=0x7f090003;
         public static final int LoginButton=0x7f090002;
         public static final int SignUpButton=0x7f090007;
         public static final int SignUpText=0x7f090004;
-        public static final int action_camera=0x7f090009;
-        public static final int action_edit_friends=0x7f09000a;
-        public static final int action_logout=0x7f09000b;
-        public static final int action_settings=0x7f090008;
+        public static final int action_camera=0x7f090008;
+        public static final int action_edit_friends=0x7f090009;
+        public static final int action_logout=0x7f09000a;
+        public static final int action_send=0x7f09000b;
         public static final int emailField=0x7f090006;
         public static final int pager=0x7f090005;
         public static final int passwordField=0x7f090001;
@@ -71,6 +72,11 @@ public final class R {
         public static final int enter_email_message=0x7f050016;
         public static final int enter_email_title=0x7f050015;
         public static final int error_external_storage=0x7f05001d;
+        public static final int error_file_size_too_large=0x7f050023;
+        public static final int error_opening_file=0x7f050022;
+        public static final int error_selecting_file=0x7f050025;
+        public static final int error_selecting_file_title=0x7f050026;
+        public static final int error_sending_message=0x7f050028;
         public static final int error_title=0x7f05001a;
         public static final int forgot_password_text=0x7f050012;
         public static final int general_error=0x7f05001e;
@@ -80,10 +86,12 @@ public final class R {
         public static final int login_error_title=0x7f050010;
         public static final int menu_edit_friends_label=0x7f050018;
         public static final int menu_logout_label=0x7f050011;
+        public static final int menu_send_label=0x7f050024;
         public static final int password_hint=0x7f050007;
         public static final int signup_error_message=0x7f05000d;
         public static final int signup_error_title=0x7f05000e;
         public static final int signup_text=0x7f05000a;
+        public static final int success_message=0x7f050027;
         public static final int title_activity_edit_friends=0x7f050019;
         public static final int title_activity_login=0x7f050006;
         public static final int title_activity_recipients=0x7f050020;
